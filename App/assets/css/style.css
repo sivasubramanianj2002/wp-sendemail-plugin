@@ -1,0 +1,52 @@
+.wrap h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Center the form */
+#sendgrid-email-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 120px;
+}
+
+/* Style form group divs */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input and textarea styling */
+#sendgrid-email-form input[type="text"],
+#sendgrid-email-form input[type="email"],
+#sendgrid-email-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#sendgrid-email-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button styling */
+#sendgrid-email-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0073aa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#sendgrid-email-form button:hover {
+    background-color: #005a87;
+}
